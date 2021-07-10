@@ -38,7 +38,7 @@
  
 
 
-It's a simple app, only to study XIB, TableViewCell and Array of Images
+It's a simple app, only to study XIB, TableViewCell, CustomCell and how show the infos in anoter view
 
 
 <!-- GETTING STARTED -->
