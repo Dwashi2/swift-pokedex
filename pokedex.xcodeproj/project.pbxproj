@@ -13,6 +13,10 @@
 		56E646502698C41C006364FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56E6464E2698C41C006364FD /* Main.storyboard */; };
 		56E646522698C420006364FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56E646512698C420006364FD /* Assets.xcassets */; };
 		56E646552698C420006364FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56E646532698C420006364FD /* LaunchScreen.storyboard */; };
+		56E6465F2698C450006364FD /* pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E6465E2698C450006364FD /* pokemon.swift */; };
+		56E646652698CA13006364FD /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E646632698CA13006364FD /* CustomCell.swift */; };
+		56E646662698CA13006364FD /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56E646642698CA13006364FD /* CustomCell.xib */; };
+		56E6467A2698DDF4006364FD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E646792698DDF4006364FD /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		56E646512698C420006364FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56E646542698C420006364FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56E646562698C420006364FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56E6465E2698C450006364FD /* pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokemon.swift; sourceTree = "<group>"; };
+		56E646632698CA13006364FD /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		56E646642698CA13006364FD /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		56E646792698DDF4006364FD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +65,34 @@
 			isa = PBXGroup;
 			children = (
 				56E646482698C41C006364FD /* AppDelegate.swift */,
+				56E646622698C996006364FD /* CustomCell */,
 				56E6464A2698C41C006364FD /* SceneDelegate.swift */,
+				56E6465D2698C426006364FD /* pokemonCharacteristic */,
 				56E6464C2698C41C006364FD /* ViewController.swift */,
+				56E646792698DDF4006364FD /* DetailViewController.swift */,
 				56E6464E2698C41C006364FD /* Main.storyboard */,
 				56E646512698C420006364FD /* Assets.xcassets */,
 				56E646532698C420006364FD /* LaunchScreen.storyboard */,
 				56E646562698C420006364FD /* Info.plist */,
 			);
 			path = pokedex;
+			sourceTree = "<group>";
+		};
+		56E6465D2698C426006364FD /* pokemonCharacteristic */ = {
+			isa = PBXGroup;
+			children = (
+				56E6465E2698C450006364FD /* pokemon.swift */,
+			);
+			path = pokemonCharacteristic;
+			sourceTree = "<group>";
+		};
+		56E646622698C996006364FD /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				56E646632698CA13006364FD /* CustomCell.swift */,
+				56E646642698CA13006364FD /* CustomCell.xib */,
+			);
+			path = CustomCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +154,7 @@
 			files = (
 				56E646552698C420006364FD /* LaunchScreen.storyboard in Resources */,
 				56E646522698C420006364FD /* Assets.xcassets in Resources */,
+				56E646662698CA13006364FD /* CustomCell.xib in Resources */,
 				56E646502698C41C006364FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +167,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				56E6464D2698C41C006364FD /* ViewController.swift in Sources */,
+				56E6465F2698C450006364FD /* pokemon.swift in Sources */,
+				56E646652698CA13006364FD /* CustomCell.swift in Sources */,
+				56E6467A2698DDF4006364FD /* DetailViewController.swift in Sources */,
 				56E646492698C41C006364FD /* AppDelegate.swift in Sources */,
 				56E6464B2698C41C006364FD /* SceneDelegate.swift in Sources */,
 			);
